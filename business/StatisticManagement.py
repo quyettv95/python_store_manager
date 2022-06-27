@@ -11,6 +11,7 @@ class StatisticManagement:
         statisByMonths = self.orderService.getStatisticByMonth()
         x = []
         y = []
+        z = []
         for statisByMonth in statisByMonths:
             x.append(statisByMonth.get('yearmonth'))
             y.append(statisByMonth.get('revenue'))
