@@ -1,0 +1,2 @@
+class CredentialsNotCorrect(Exception):
+    pass
